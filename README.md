@@ -1,5 +1,5 @@
 # CRASHSENSE
-Crashsense is a high level embedded sytems project which senses crashes in vehicles like cars trucks and also drones and records the every bit of data of that crash and gives enough data for the crash to be reoncstructed 
+Crashsense is a high level embedded sytems project which senses crashes in vehicles like cars trucks and also drones and records crital data of that crash and gives enough data for the crash to be reoncstructed 
 
 # what output i want it to give 
 1. retardation values for all 3 axes

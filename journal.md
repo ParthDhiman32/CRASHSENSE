@@ -44,4 +44,4 @@ no-8,9,10 TP4056 now here comes the power system which i would like to cover all
 
 ![alt text](image.png)
 
-**Total time spent: h**
+**Total time spent: ~2h** for the lapse + journal if talking only about the journal i spent a exact time of 1 hour and 7 mins on it because i mostly did research and wrote my views here today 
