@@ -42,6 +42,7 @@ no-7 u-blox NEO-M8N this is a pretty good enough GPS for crashsense as i also wa
 
 no-8,9,10 TP4056 now here comes the power system which i would like to cover all together so first up comes the usb-c which i will using to power program and test the entire pcb firstly the 5V power enters through the USB and then i use the TP4056 module to charge the onboard li-ion battery which will power the entire system for now i will add a more complex power system in the pcb which enable the pcb to run directly off of the 11.8 to ~14 V from the lead acid car battery and yes i will also add supercapacitors later incase the battery wires snap during a crash 
 
-![alt text](image.png)
+<img width="1532" height="744" alt="image" src="https://github.com/user-attachments/assets/63774e1b-62cb-4026-a261-0b771fb3503b" />
+
 
 **Total time spent: ~2h** for the lapse + journal if talking only about the journal i spent a exact time of 1 hour and 7 mins on it because i mostly did research and wrote my views here today 
