@@ -46,3 +46,19 @@ no-8,9,10 TP4056 now here comes the power system which i would like to cover all
 
 
 **Total time spent: ~2h** for the lapse + journal if talking only about the journal i spent a exact time of 1 hour and 7 mins on it because i mostly did research and wrote my views here today 
+
+# July 23rd: Deeper research and Pcb schematic development!
+
+So guys today's decided goal is to complete adding all the parts i need for my project in the schematic and then 
+hopefully start the routing 
+
+So i decided to make a change in the magnotemeter i'll be using instead of using a QMC5883L 3 axis magnometer 
+i will instead use BMM150 which is also a 3 axis magnetometer but this one is made by bosch and hence 
+is much more relaible
+
+so first of all what i did was to place all the parts in the KiCAD schematics editor 
+I got most of the parts in the default library but i needed to add a few special sensors like ADXL377 and the 
+BMI270 3 axis accelerometer and gyroscope from bosch 
+
+now first of all i started to wire up the power system consistong of a USB C connector TP4056 for charging the battery and also a ME6211 to step down the voltage from 5V from the USB C to 3V3 volts on which the entire system will operate on if any sensor requires exact 5V signal i will either use a I2C signal logic level converter because f i directly feed the sensor 5V it will be output 3V3 signals to my ESP32 S3 and cook it 
+
