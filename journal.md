@@ -62,3 +62,14 @@ BMI270 3 axis accelerometer and gyroscope from bosch
 
 now first of all i started to wire up the power system consistong of a USB C connector TP4056 for charging the battery and also a ME6211 to step down the voltage from 5V from the USB C to 3V3 volts on which the entire system will operate on if any sensor requires exact 5V signal i will either use a I2C signal logic level converter because f i directly feed the sensor 5V it will be output 3V3 signals to my ESP32 S3 and cook it 
 
+so i worked on the power system i wired up a USB C connector to my TP4056 battery power managemnent IC and use it to charge my 
+li-ion battries and also give the 3V3 volt regulator aka the ME6211 which is being fed the 5V from the TP4056 
+for it to be convertyed into stable 3V3 volts also i added 10uF capacitors at the input and output of each of the 
+regualtors to store power and to stabelize voltage fluctuations which may take place 
+
+after this i wired up the sd card module and added net labels for easily connecting them to my ESP32 S3 WROOM-1 module 
+also i added one 10uF capacitor at the inputs of the SD card module to stabelize the voltage and a 100nF capacitor to 
+filter out the any noise in the power signals which may interfere with the SD card module 
+
+
+**Total time spent: ~2.5h** (including lapse and journalling)
