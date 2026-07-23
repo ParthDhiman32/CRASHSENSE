@@ -66,10 +66,16 @@ so i worked on the power system i wired up a USB C connector to my TP4056 batter
 li-ion battries and also give the 3V3 volt regulator aka the ME6211 which is being fed the 5V from the TP4056 
 for it to be convertyed into stable 3V3 volts also i added 10uF capacitors at the input and output of each of the 
 regualtors to store power and to stabelize voltage fluctuations which may take place 
+<img width="1457" height="680" alt="image" src="https://github.com/user-attachments/assets/48396691-1ae5-43ce-8994-07801063d5c7" />
+
 
 after this i wired up the sd card module and added net labels for easily connecting them to my ESP32 S3 WROOM-1 module 
 also i added one 10uF capacitor at the inputs of the SD card module to stabelize the voltage and a 100nF capacitor to 
 filter out the any noise in the power signals which may interfere with the SD card module 
+<img width="728" height="619" alt="image" src="https://github.com/user-attachments/assets/8b5d74a5-efa2-4e22-a638-5dd4a806f916" />
+
+## overall PCb schematic as of today 
+<img width="852" height="592" alt="image" src="https://github.com/user-attachments/assets/826f070b-b4e3-4b6b-b89e-10f2f8140894" />
 
 
 **Total time spent: ~2.5h** (including lapse and journalling)
