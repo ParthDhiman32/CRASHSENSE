@@ -1,5 +1,3 @@
-
-
 ---
 Title: "Crashsense"
 Author: "Parth Dhiman"
@@ -64,5 +62,3 @@ BMI270 3 axis accelerometer and gyroscope from bosch
 
 now first of all i started to wire up the power system consistong of a USB C connector TP4056 for charging the battery and also a ME6211 to step down the voltage from 5V from the USB C to 3V3 volts on which the entire system will operate on if any sensor requires exact 5V signal i will either use a I2C signal logic level converter because f i directly feed the sensor 5V it will be output 3V3 signals to my ESP32 S3 and cook it 
 
-<img width="1536" height="819" alt="image" src="https://github.com/user-attachments/assets/73df4c9e-e8e8-4e1b-921c-0c9679e2766b" />
-<img width="773" height="592" alt="image" src="https://github.com/user-attachments/assets/0cb84eff-1c24-4da5-947e-fd91787f1591" />

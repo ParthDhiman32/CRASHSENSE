@@ -10,10 +10,10 @@ Crashsense is a high level embedded sytems project which senses crashes in vehic
 6. 
 
 ## TEMPORARY ##
-## parts to be used 
+## parts to be used  
 1. ESP32-S3-WROOM-1
 2. ADXL377
-3. QMC5883L
+3. BMM150 , BMI270
 4. DS3231
 5. micro sd
 6. TP4056
