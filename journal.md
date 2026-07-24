@@ -79,3 +79,19 @@ filter out the any noise in the power signals which may interfere with the SD ca
 
 
 **Total time spent: ~2.5h** (including lapse and journalling)
+
+# July 24th: PCb schematics continued!
+
+sooo guys my goal for tonight is to route 3 more sensors properly like not properly perfectly flawlessly so that 
+i would not worry about my connections being wrong 
+
+I started by wiring up the very easy u-blox-NEO-M8N GPS which uses only vcc gnd and I2C pins which make 
+the connections very easy 
+
+then i connected the ADX377 to my esp32 s3 i added a 100nF decoupling capacitor and also added 10nF capacotors at X Y and Z 
+output pins to set the data sampaling speed to 200Hz
+
+after that i made a master I2C rail over which i connected all the I2C devices mainly the DS3231M RTC 
+
+and lastly i connected the BMI270 IMU which i'll be using for reading the gyroscopic values for all 3 axes 
+
