@@ -95,3 +95,11 @@ after that i made a master I2C rail over which i connected all the I2C devices m
 
 and lastly i connected the BMI270 IMU which i'll be using for reading the gyroscopic values for all 3 axes 
 
+<img width="525" height="564" alt="image" src="https://github.com/user-attachments/assets/e1f13cfb-6ac1-45e2-bbb9-47dc76a2ed2e" />
+<img width="579" height="485" alt="image" src="https://github.com/user-attachments/assets/b276cf28-9bc5-42c3-9863-5d978e258987" />\
+<img width="823" height="505" alt="image" src="https://github.com/user-attachments/assets/b5bfd0fb-18cb-412e-9d07-d56258076d89" />
+<img width="922" height="633" alt="image" src="https://github.com/user-attachments/assets/e0848537-99c8-44bc-9484-9603b1313bcf" />
+
+**Total time spent: ~1.3h** (including lapse and journalling)
+
+
