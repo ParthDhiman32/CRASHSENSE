@@ -139,6 +139,14 @@ Then i ignored the warnings because they were pointing at some silly stuff and i
 now i added footprint for each and every component used from a single resistor to the BMI270 all have the footprints assigned
 now i converted everything to a pcb and i already know it is going to be a hell of a routing session 
 
+Here are the screenshots of today's work 
+<img width="893" height="644" alt="image" src="https://github.com/user-attachments/assets/9dd541ad-0688-4536-b2f8-0e1da0931cad" />
+<img width="857" height="540" alt="image" src="https://github.com/user-attachments/assets/c0777a9e-5936-4fa9-975c-1ada1043d9b4" />
+<img width="940" height="668" alt="image" src="https://github.com/user-attachments/assets/c9d73274-d097-4a66-918a-7dc5fbd90d2d" />
+<img width="1410" height="795" alt="image" src="https://github.com/user-attachments/assets/188c15b2-6905-4677-8984-6c3c9ff7e809" />
+<img width="1536" height="816" alt="image" src="https://github.com/user-attachments/assets/0996262a-bbfd-4bc1-86a3-f1253607cc1b" />
+
+
 Which i decide to save for tomorrow 
 
 **Total time spent: ~1.6h** (including lapse and journalling)
