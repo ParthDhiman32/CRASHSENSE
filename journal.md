@@ -102,4 +102,43 @@ and lastly i connected the BMI270 IMU which i'll be using for reading the gyrosc
 
 **Total time spent: ~1.3h** (including lapse and journalling)
 
+# July 24th: PCB schematics finished!
+So guys my goal for today is to finish the pcb and then organize the schematics and optimize it for redability 
+to make it look proffesional afterall
 
+so firstly i wired up the last piece the BMM150 the 3 axis compass which will be used for telling which direction the vehicle 
+is headed to and from where did the crash occur 
+
+what i learnt that i always have to connect a 100nF resistor with every IC because it stabelizes the power input 
+and also helps to reduce impact of high frequency signals on the IC 
+
+as for the ESP32 S3 wroom-1 module which i mostly use in my projects i need to connect 2 resistors to it 
+firstly the bulk charge holder 10uF capacitor and then the noise reducing capacitor aka the 100nF capacitor 
+the combination of the two helps with fluctuating power and signal noise 
+
+alright now after adding these changes i also added the RC delay circuit for the EN pin with a 10kR resistor 
+and a 1uF resistor and a reset circuit for the IO0 pin to decide wether to put the ESP32 in running or uploading module
+
+then i also added 2 pins the RX and TX as pin headers on the PCB so that i can still upload the code to my esp32 
+is my USB fails to program or detect the ESP32 which has hapenned to me in the past so i mostly use a FTDI 
+module connected to the ESP32's RX and TX pins to flash it 
+
+now i have another bigger obstacle in my way i need to organize everything all the components in the schematic
+
+alright now i organised everything inside the schematic
+The power delivery system is at the top right 
+The esp32 s3 wroom-1 with all it's connection flags is placed in the center the accelerometer and the gyroscope sensor to it's right
+The RTC and the RC delay and Reset circuits are on the leftthe sd card module on the top left 
+
+Now i ran the most critical part the ERC 
+first it showed 5 errors and 3 warnings 
+the 5 errors pominted to 2 unconnected pins which i forgot to place a no connection mark on and 
+the other 3 were pointing at the +5V_BAT the 3V3 and the GND i just needed to add 3 PWR_FLAGS to them to fix it
+Then i ignored the warnings because they were pointing at some silly stuff and i saw ZERO!!!!! DRC errors
+
+now i added footprint for each and every component used from a single resistor to the BMI270 all have the footprints assigned
+now i converted everything to a pcb and i already know it is going to be a hell of a routing session 
+
+Which i decide to save for tomorrow 
+
+**Total time spent: ~1.6h** (including lapse and journalling)
