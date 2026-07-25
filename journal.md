@@ -149,4 +149,4 @@ Here are the screenshots of today's work
 
 Which i decide to save for tomorrow 
 
-**Total time spent: ~1.6h** (including lapse and journalling)
+**Total time spent: ~2.2h** (including lapse and journalling)
