@@ -172,8 +172,10 @@ and then in the end what I needed to do is to make a Edge.Cuts layer of size apr
 Now today's goal is complete and now i plan to route this PCB tomorrow and make minor adjusments in the layout for ease of routing 
 
 Here is how the PCB looks today after today's work VS how it did look yesterday 
-
-
+**Yesterday**
+<img width="1536" height="816" alt="image" src="https://github.com/user-attachments/assets/0996262a-bbfd-4bc1-86a3-f1253607cc1b" />
+**Today**
+<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/6e1cd8d1-fdde-41d0-8a14-e46f27adf9ab" />
 
 **Total time spent: ~~2h** (including lapse and journalling)
 
