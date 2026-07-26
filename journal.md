@@ -150,3 +150,30 @@ Here are the screenshots of today's work
 Which i decide to save for tomorrow 
 
 **Total time spent: ~2.2h** (including lapse and journalling)
+
+# July 24th: PCB component placement started!
+
+Alright guys so yesterday i had completed the pcb schematics and today i started to arrange all the components on the pcb 
+
+So the strategy i use to arrange the components perfectly is that i divide the entire PCB into sub systems like the power system the micro controller system and each and every sensor is firstly seperated 
+
+I would call this a pretty good feature of Kicad that it lets us select the components on the pcb editor just by selscting them in the Schematics editor this does not exist in easy EDA 
+
+Anyways after diving each and ever subsystem i start to place the passive SMD components like resistors capacitors connectors and inductors close the the main chip that im working on for eg the most crutial part is the power system so to ensure minimum EMI the compoenets need to be as closely packed as possible like the smd components need to be hugging the power IC like actually so close that it literally cannot be any closer this helps to greatly reduce EMI and keeps the signals stable and noise free because long power traces can act as a antenna and disturb other components such as the most sensetive magnetometer 
+
+after the power system i worked on the ESP32 as i said earlier the decoupling capacotors near the ESP32 S3 should should be placed as close it as possible
+
+Then moving on to the SD card module if you look closely you'll be able to see an array or resistors which are connecting to the SD card module and 3V3 rail That is an array of Pull up resistors pulling up each and evey single pin on the SD card module because without it the micro SD card module becaomes highly unstable and may be affected by tiny bt of electro magnetic interference and read data wrongly and may even corrupt the SD card module 
+
+Then we move to the sensors in this PCB the ADXL377 and the BMI270 are placed close to each other because they can be BUT! you may notics that the BMI270 is kept far away from each of these sensors and even the power rails this is done on purpose because the BMI150 is a very accurate but ultra sensetive magnetemeter and even a tiny bit of current will WILL acceft it's reading so that is the reason why this HAS to be kept away from evey other component 
+
+and then in the end what I needed to do is to make a Edge.Cuts layer of size aprox 70 by 50 mm inside which i had to keep att the components now this is pure hit and trial you need to logically reason the placement of every subsystem on the PCB in such a way it compliments the working of other subsystem instead of interfering with then like the ESP32 and the power system are best friends and need to be together for proper power delivery and the RTC module is above the SD card module because the array of the Pull up resistors need space for connecting with the ESP32 and so and so 
+
+Now today's goal is complete and now i plan to route this PCB tomorrow and make minor adjusments in the layout for ease of routing 
+
+Here is how the PCB looks today after today's work VS how it did look yesterday 
+
+
+
+**Total time spent: ~~2h** (including lapse and journalling)
+
