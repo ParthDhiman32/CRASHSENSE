@@ -187,5 +187,6 @@ But things didn't go as planned well they did i routed a lot of things but the t
 i cannot see each and every tract properly taht's why it seems very very confusing but yes i can say i did make progress but i am not able to recognize it properly 
 
 anyways i do not have a lot to say today so i would like to imclude a screenshot of today's work and end it also because i haven't slept properly so i should sleep 
+<img width="824" height="613" alt="image" src="https://github.com/user-attachments/assets/9d7e2539-d9c3-4f6b-a715-9774708bd661" />
 
 **Total time spent: ~1h** (including lapse and journalling)
