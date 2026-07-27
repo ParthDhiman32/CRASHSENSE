@@ -179,3 +179,13 @@ Here is how the PCB looks today after today's work VS how it did look yesterday
 
 **Total time spent: ~~2h** (including lapse and journalling)
 
+# July 24th: PCB component placement started!
+sooo guys i started to route my pcb today and i went for a 4 layered PCB because i had never made it before and i guessed it would be the perfect opputunity to learn 
+how to trace a 4 layered PCB 
+
+But things didn't go as planned well they did i routed a lot of things but the thing is that i myself do not understand properly how did the connections trace like 
+i cannot see each and every tract properly taht's why it seems very very confusing but yes i can say i did make progress but i am not able to recognize it properly 
+
+anyways i do not have a lot to say today so i would like to imclude a screenshot of today's work and end it also because i haven't slept properly so i should sleep 
+
+**Total time spent: ~1h** (including lapse and journalling)
