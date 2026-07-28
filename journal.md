@@ -179,7 +179,7 @@ Here is how the PCB looks today after today's work VS how it did look yesterday
 
 **Total time spent: ~~2h** (including lapse and journalling)
 
-# July 27th: PCB component placement started!
+# July 27th: PCB component Routing disaster!
 sooo guys i started to route my pcb today and i went for a 4 layered PCB because i had never made it before and i guessed it would be the perfect opputunity to learn 
 how to trace a 4 layered PCB 
 
@@ -190,3 +190,26 @@ anyways i do not have a lot to say today so i would like to imclude a screenshot
 <img width="824" height="613" alt="image" src="https://github.com/user-attachments/assets/9d7e2539-d9c3-4f6b-a715-9774708bd661" />
 
 **Total time spent: ~1h** (including lapse and journalling)
+
+# July 28th: PCB rerouting with peaceful mind  !
+SOO GUYZZ so first of all i started by unrouting all the traces i made because they just didn't feel right and i felt like i speedran 
+then and after that i reomved all the components out of the edgs.cuts layer and started to place each and every sub-system together 
+and i also decided that i will need to increase the size of the pcb because a smaller form factor would only make things really hard 
+to route so as the engineering industry standard if something doesn't work i just scrap and discard it and start over again 
+that is exactly what i did i discarded the old component placement and then seperated each and every systed and 
+adjusted every capacitor or resistor which i felt like needed to be.
+
+after adjusting every single component the next part was that i needed to convert the PCB physically into a 4-layered PCB for that i first needed to go 
+in FILE and then BOARD SETUP and then PHYSICAL STACKUP 
+then i needed to change the no of layers from 2 to 4 layers and kicad automatically added in1 and in2 layer 
+So the in1 layer was configured as the GND plane and the in2 layer was configured as the 3V3 plane 
+as the entire board runs on 3v3 volts i only need GND and 3V3 as 2 extra layers for seperating the power system from the rest 
+of the board 
+
+Then after doing this i started to route the PCB first of all what i needed to do was to add vias to all the GND 
+pads so that i could connect them directly to the GND plate 
+
+after adding all the GND vias i realised that every via must be as close to the pad as possible so i rechecked every via i made and 
+then made minor adjustments in the location of vias with respect to the GND pad 
+
+**Total time spent: ~1.1h** (including lapse and journalling)
