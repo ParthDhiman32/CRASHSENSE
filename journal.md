@@ -102,7 +102,7 @@ and lastly i connected the BMI270 IMU which i'll be using for reading the gyrosc
 
 **Total time spent: ~1.3h** (including lapse and journalling)
 
-# July 24th: PCB schematics finished!
+# July 25th: PCB schematics finished!
 So guys my goal for today is to finish the pcb and then organize the schematics and optimize it for redability 
 to make it look proffesional afterall
 
@@ -151,7 +151,7 @@ Which i decide to save for tomorrow
 
 **Total time spent: ~2.2h** (including lapse and journalling)
 
-# July 24th: PCB component placement started!
+# July 26th: PCB component placement started!
 
 Alright guys so yesterday i had completed the pcb schematics and today i started to arrange all the components on the pcb 
 
@@ -179,7 +179,7 @@ Here is how the PCB looks today after today's work VS how it did look yesterday
 
 **Total time spent: ~~2h** (including lapse and journalling)
 
-# July 24th: PCB component placement started!
+# July 27th: PCB component placement started!
 sooo guys i started to route my pcb today and i went for a 4 layered PCB because i had never made it before and i guessed it would be the perfect opputunity to learn 
 how to trace a 4 layered PCB 
 
@@ -187,5 +187,6 @@ But things didn't go as planned well they did i routed a lot of things but the t
 i cannot see each and every tract properly taht's why it seems very very confusing but yes i can say i did make progress but i am not able to recognize it properly 
 
 anyways i do not have a lot to say today so i would like to imclude a screenshot of today's work and end it also because i haven't slept properly so i should sleep 
+<img width="824" height="613" alt="image" src="https://github.com/user-attachments/assets/9d7e2539-d9c3-4f6b-a715-9774708bd661" />
 
 **Total time spent: ~1h** (including lapse and journalling)
