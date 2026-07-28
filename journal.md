@@ -212,4 +212,17 @@ pads so that i could connect them directly to the GND plate
 after adding all the GND vias i realised that every via must be as close to the pad as possible so i rechecked every via i made and 
 then made minor adjustments in the location of vias with respect to the GND pad 
 
-**Total time spent: ~1.1h** (including lapse and journalling)
+here is the yesterday's before and today's after 
+
+## BEFORE ##
+<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/6e1cd8d1-fdde-41d0-8a14-e46f27adf9ab" />
+
+## AFTER ##
+<img width="907" height="612" alt="image" src="https://github.com/user-attachments/assets/aec13257-1a76-4ab2-afaa-18233c96dba7" />
+
+If you cannot tell the difference let me explain so first of all the yesterday's PCB is much much smaller and cluttered than the pcb i made today 
+and also the new pcb has M3 mounting screws in comparision to the old one which doesn't even have a proper visibally viable division of sub-systems  
+
+Also the most important update that i made in this PCB is that i added a sensor array at the base of the PCB as the snsors share the same horizontal axis on the 2 dimensional plane of the PCB they will be synced and provide harmonius information which is more accurate and can be worked uptom more freely
+
+**Total time spent: ~1.3h** (including lapse and journalling)
