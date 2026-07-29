@@ -226,3 +226,60 @@ and also the new pcb has M3 mounting screws in comparision to the old one which 
 Also the most important update that i made in this PCB is that i added a sensor array at the base of the PCB as the snsors share the same horizontal axis on the 2 dimensional plane of the PCB they will be synced and provide harmonius information which is more accurate and can be worked uptom more freely
 
 **Total time spent: ~1.3h** (including lapse and journalling)
+
+# July 29th: PCB final routing and makeing it look good!
+
+Sooo guyss today's session was longer than other session because now i am going to speedrun the PCB now as the deadline is getting close 
+So about what i did Today
+
+as of yesterday i was routing the GND pads by that i mean adding VIA for GND near every GND pad and why is that so you may as??
+This is because i was making a 4 layered PCB well i was going to give up and make a 2 layered PCB instead but no 
+i did continue with the 4 layered one so till yesterday i had added all the GND VIAS and today i contunued by adding the
+VIA for the 3V3 plane and then i soon realised i made a blunder which would cost me a lot in manufacturing the PCB 
+the blunder i made was that i asses the 3v3 pads as close to the pad as possible ik that is how it is supposed to be but my mistake was that i made the pad and the VIA touch 
+which seemsokay in design stage of PCb assembly but causes the manufacturing cost to shoot up because during the solder reflow stage of the PCB the 
+solder runs down through the holes and more of it ends up being used and hence costing more 
+
+now after this what i did was to rerout the power system for the power system i started by routing the TP4056 IC and then 
+the ME6122 3V3 voltage regulator LDO  and then i used a lot of brain in maximizing the efficiency of the power system by reducing the trace length and using VIA 
+efficiently 
+
+After the voltage regulation body i.e. power system was done i moved over to connecting the power pins of the ESP32 
+first the power pins and then the EN and IO0 switches were wired up something different that i did this time that i do not usually do while routing pcbs is that 
+when i make traces most of the times i just folow what the software guides me as the best track or VIA position but i learnt that if i hold down the CTRL key
+and then move my mouse then the track used to move very smoothly as if now i have entire soul of the track in the pal of my hand 
+now i made a lot of very beautiful traces that i am really proud of 
+
+Then i worked my way over to the I2C rails i had a very good idea this time that i will first make a common rail 
+for every I2C device which was a really good idea because it worked properly and it also looked much better then connecting the I2C 
+traces any other way after my inner perfectionist perfected the tracks i was satsfied and then 
+
+and then was left another sesnr or two why? because they had different pins because they use SPi protocol instead of 
+I2C protocol like the micro SD Card module and then ADXL377 
+
+and after this i was done with allll the connections 
+
+Then....i ran the DRC and it showed me 8 errors and 15 warnings from those 8 errors 5 errors were that i had left unconnected items in the power system 
+but in reality the thing is that i did wire them up but suddenly i pressed shift + W and idk when i press it my computer crashes everytime 
+and i have to start Kicad again but it loads it from the place of last save 
+
+Anyways after fixing those 5 errors i went to 3 more errors which were telling me that the edge.cuts layer wasn'ta
+aligned properly with the 3V3 and the GND plate then i shifted the border a bit and fixed the PCB now i only had warnings telling me to not clip the silkscreen but bro now i can ofc 
+have silkscreen over or under the electronics it's not like it will interfere with the PCB 
+
+After doing any and every change i could have done to beautify the PCb like i even added teardrops in the PCb and after that the 
+VIA suddenly looked much much better 
+
+now came the fun part i imported a few SVj files to add on the PCB 
+mo-1 i wrote my name and project name "Crashsense mark-1" and also the date i made it and then i added hack club' flag 
+to the front of the PCB and an AI generated very cool SVJ file which was a graphical symbol of crashsense on the entire back of the PCB 
+and lastly i added the core of the systed i added 2 hysics equations on whose principal does crashsense work and then put them near the heart of the ESP32
+
+Okay so i think these are enough for today now i should sleep properly 
+
+here are the PIC of today's work 
+
+
+**Total time spent: ~3.5h** (including lapse and journalling)
+
+
