@@ -277,7 +277,12 @@ and lastly i added the core of the systed i added 2 hysics equations on whose pr
 
 Okay so i think these are enough for today now i should sleep properly 
 
-here are the PIC of today's work 
+here are the PICs of today's work
+
+<img width="703" height="555" alt="image" src="https://github.com/user-attachments/assets/e28de55e-dc38-484d-9036-13575ac9780f" />
+<img width="718" height="569" alt="image" src="https://github.com/user-attachments/assets/6120ce9b-e3d4-440c-8525-ca60214845b2" />
+<img width="721" height="498" alt="image" src="https://github.com/user-attachments/assets/008a4c99-3e87-44e9-a91d-07078568e94b" />
+<img width="768" height="528" alt="image" src="https://github.com/user-attachments/assets/0fc60b0e-6ecc-4aa8-8199-c823bb58897e" />
 
 
 **Total time spent: ~3.5h** (including lapse and journalling)
