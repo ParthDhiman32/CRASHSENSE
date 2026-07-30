@@ -52,24 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|186355000|76230000|da736874-a0bd-4260-a397-6d284068a664|4fde3469-793d-4c66-8720-ebce87299aee",
-          ""
-        ],
-        [
-          "silk_edge_clearance|204755000|76230000|da736874-a0bd-4260-a397-6d284068a664|6064716d-6bb5-42b7-8790-5512fb7d0fd4",
-          ""
-        ],
-        [
-          "text_height|181514813|125456468|038afe7b-04c4-4419-b58a-f8fd84a9a83e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_height|199405533|127921793|fd4769c7-82b1-482e-86bc-232d9581a860|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -150,7 +133,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
