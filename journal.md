@@ -305,6 +305,7 @@ I have the theoretical design in my head that is that this project will have a i
 actually during an impact what i really want that survives is not the PCb but rather the Mirco SD card module because it will be storing all of the critical data and furthermore i plan to make the areas where the SD card resides the toughest area 
 
 Here is the design made till now
- 
+<img width="941" height="573" alt="image" src="https://github.com/user-attachments/assets/b622dd98-5535-4e7e-a4b6-2ca2db216bcf" />
+
 
 **Total time spent: ~2h** (including lapse and journalling)
