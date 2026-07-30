@@ -298,3 +298,13 @@ using the custon added fabrication toolkit
 
 then i also exported the schematics of the pcb as a PDF file inside the PCB folder and yeah after this i ploshed 
 the readme added different sections and many many images of my work
+
+andd after all of updating the readme writing new things and highlighting all the stuff about the PCb I did till now i started to work on the 3D Enclosure for the PCB and that's when i realised i don't have a very clear idea of how the actual 3d design should look but for the begining i will make a very simple enclosure and then work on it and transform it into an even better design day by day hour by hour minute by minute 
+
+I have the theoretical design in my head that is that this project will have a inner hard PETG shell inside which the pcb will be present and a soft outter TPU shell which will deform and squish during the impacts and let the inner hard shell protect the PCB 
+actually during an impact what i really want that survives is not the PCb but rather the Mirco SD card module because it will be storing all of the critical data and furthermore i plan to make the areas where the SD card resides the toughest area 
+
+Here is the design made till now
+ 
+
+**Total time spent: ~2h** (including lapse and journalling)
