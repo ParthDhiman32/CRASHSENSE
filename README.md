@@ -15,7 +15,7 @@ Crashsense extracts critical data from a crash like retardation, impact velocity
 ## HARDWARE & PCB SPECS 
 
 # MICROPROCESSOR
-This PCB runs on ** ESP32-S3-WROOM-1 ** operating at speeds of 240Mhz for high frequency data sampling and sensor fusion 
+This PCB runs on **ESP32-S3-WROOM-1** operating at speeds of 240Mhz for high frequency data sampling and sensor fusion 
 
 # SENSORS
 The main sensors used in this project are 
@@ -36,20 +36,18 @@ The main sensors used in this project are
 # Control and Diagnostics #
 1. Boot and reset buttons 
 2. UART debuggin header (incase USB-C fails to work)
+3. 
+# Schematic
+<img width="917" height="653" alt="image" src="https://github.com/user-attachments/assets/a588354a-ed32-4c77-b208-898fecac20c1" />
+<img width="755" height="582" alt="image" src="https://github.com/user-attachments/assets/35923196-79d2-42c8-b43f-2fefbe704b32" />
+<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/27ef61de-0b24-4023-bc82-6612154fdf8c" />
 
-## FINAL PCB
-
-# Schematics
-
-
-
+# PCB
+<img width="1580" height="882" alt="Crashsense PCB Render-1" src="https://github.com/user-attachments/assets/28ff6a70-5415-43b5-935a-e20b0fe32de9" />
+<img width="1580" height="882" alt="Crashsense PCB Render-2" src="https://github.com/user-attachments/assets/bf2b3f8c-44f6-457f-9f1e-0234a42bb2e4" />
+<img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
 
 
-
-
-
-
-# Actual PCB
 
 
 
