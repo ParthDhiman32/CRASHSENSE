@@ -12,32 +12,32 @@ Now imagine you could take out something useful from something as negative as a 
 
 Crashsense extracts critical data from a crash like retardation, impact velocity, angle of impact (forward, rear, side, heads on collision) which may be used by engineers to find out how the car crashed and the data may also be analyzed b forensic investigators to collect better evidence. not only all this but if you are making your own custom drone you can install crashsense on it and find out at what exact angle it falls down and how does it fall down and it'll help to pinpoint the point of faliure of the entire system
 
-## HARDWARE & PCB SPECS 
+# HARDWARE & PCB SPECS 
 
-# MICROPROCESSOR
+## MICROPROCESSOR
 This PCB runs on **ESP32-S3-WROOM-1** operating at speeds of 240Mhz for high frequency data sampling and sensor fusion 
 
-# SENSORS
+## SENSORS
 The main sensors used in this project are 
 1. **BMI270** - 6 Axis Inertial Measurement Unit for reading  standard acceleration
 2. **ADXL377** - 3 Axis Accelerometer extremely precise readings with massive reading range +-200G
 3. **u-blox NEO-M8N** - Additional GPS tracting for pinpointing the location of crash 
 4. **DS3231M - precise** timekeeping and timestamping the logged data
 
-# Storage system 
+## Storage system 
 **Push-Push Micro SD-Card Slot** this locks the card firmly inside it's frams and ensures no hinderance with high speed SPI communication 
 
-# Power and Battery Management 
+## Power and Battery Management 
 1. **USB-C connector** much better than old micro-usb connectors 
 2. **TP4056** for recharing li-ion battries connected in araller for maximum runtime without being connected to external power source
 3. **ME6211 3.3V** to step down the 5V input power to stable and low noise 3V3 volts 
 4. **Li-ion battries** with JST connector for secure connection 
 
-# Control and Diagnostics #
+## Control and Diagnostics #
 1. Boot and reset buttons 
 2. UART debuggin header (incase USB-C fails to work)
-3. 
-# Schematic
+
+# Schematics
 <img width="917" height="653" alt="image" src="https://github.com/user-attachments/assets/a588354a-ed32-4c77-b208-898fecac20c1" />
 <img width="755" height="582" alt="image" src="https://github.com/user-attachments/assets/35923196-79d2-42c8-b43f-2fefbe704b32" />
 <img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/27ef61de-0b24-4023-bc82-6612154fdf8c" />
@@ -46,6 +46,9 @@ The main sensors used in this project are
 <img width="1580" height="882" alt="Crashsense PCB Render-1" src="https://github.com/user-attachments/assets/28ff6a70-5415-43b5-935a-e20b0fe32de9" />
 <img width="1580" height="882" alt="Crashsense PCB Render-2" src="https://github.com/user-attachments/assets/bf2b3f8c-44f6-457f-9f1e-0234a42bb2e4" />
 <img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
+
+
+
 
 
 
