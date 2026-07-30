@@ -288,3 +288,13 @@ here are the PICs of today's work
 **Total time spent: ~3.5h** (including lapse and journalling)
 
 
+# July 30th: PCB Finalization!
+SOOO GUYZZ today what i did was that firstly i rendered the pcb i took one render from the top view of the PCB
+another from the back side of the PCB which has the crashsense logo and 3rd render was a sideways slanting render
+which looked absoultely fire 
+
+after this i explorted the production files for the PCB like the GERBER the BOM and the PLACE file for the PCB 
+using the custon added fabrication toolkit 
+
+then i also exported the schematics of the pcb as a PDF file inside the PCB folder and yeah after this i ploshed 
+the readme added different sections and many many images of my work
