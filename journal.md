@@ -309,3 +309,18 @@ Here is the design made till now
 
 
 **Total time spent: ~2h** (including lapse and journalling)
+
+
+# July 31st: 3D Design progress!
+Alright so today was a pretty productive day what i did was work on the 3D CAD enclosure for my PCB which 
+i had started yesterday on yesterday it was just a single part box 
+
+today i made the following changes 
+1. Made a cutout for the USB Type C connector in the enclosure 
+2. Added M3 heat inserts in the small pillars i made for mounting the PCB regidly 
+3. Added M3 screws to mount the PCB inside the enclosure 
+4. Added a lip on the outter perimeter of the TOP of the enclosure for sturdy connection with the LID 
+5. started working on the lid and made a coresponding outter lip on it's perimiter for proper locking of the lid
+6. Added M3 screws connecting the lid and the enclosure together 
+
+
