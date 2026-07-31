@@ -323,4 +323,10 @@ today i made the following changes
 5. started working on the lid and made a coresponding outter lip on it's perimiter for proper locking of the lid
 6. Added M3 screws connecting the lid and the enclosure together 
 
+<img width="946" height="333" alt="Screenshot 2026-07-31 143506" src="https://github.com/user-attachments/assets/19848ba2-d707-4e00-b6b3-220c68340c7e" />
+<img width="941" height="573" alt="Screenshot 2026-07-30 221610" src="https://github.com/user-attachments/assets/8f6eb6da-1af7-4fa9-a4d0-5b90eeafa1df" />
+<img width="788" height="380" alt="image" src="https://github.com/user-attachments/assets/675d1f4a-1189-4228-b77b-3f96493dc5ec" />
+<img width="1536" height="680" alt="image" src="https://github.com/user-attachments/assets/a4c46744-37c7-4a83-a559-888cda6f44a5" />
+
+
 
