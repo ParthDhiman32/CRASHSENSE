@@ -311,7 +311,7 @@ Here is the design made till now
 **Total time spent: ~2h** (including lapse and journalling)
 
 
-# July 31st: 3D Design progress!
+# July 31st and 1st august: 3D Design progress!
 Alright so today was a pretty productive day what i did was work on the 3D CAD enclosure for my PCB which 
 i had started yesterday on yesterday it was just a single part box 
 
@@ -322,5 +322,8 @@ today i made the following changes
 4. Added a lip on the outter perimeter of the TOP of the enclosure for sturdy connection with the LID 
 5. started working on the lid and made a coresponding outter lip on it's perimiter for proper locking of the lid
 6. Added M3 screws connecting the lid and the enclosure together 
+7. added a interlocking lip for sturdy connection of the lid with the body 
+8. created outter hexagonal pattern housing which will sqush and break on impact protecting the inner PCB 
 
 
+**Total time spent: ~5-6h** (including lapse and journalling)
