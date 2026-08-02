@@ -352,7 +352,12 @@ I started to export all the CAD files in the respective folders and make each an
 
 and now the entire CAD and PCB part of this project stands complete i will now proceed to ship this project 
 
-**Total time spent: ~1.8h** (including lapse and journalling)
+<img width="1920" height="1080" alt="Crashsense Mark-1 3D assmebly v1" src="https://github.com/user-attachments/assets/11df2b84-d575-413e-9f84-02c2b091a667" />
+<img width="1920" height="632" alt="Crashsense Mark-1 3D assmebly V2" src="https://github.com/user-attachments/assets/d428606d-ac2e-4209-b30f-570bc0af499a" />
+
+
+
+**Total time spent: ~2h** (including lapse and journalling)
 
 # 2nd and 3rd August Starting and finishing up code!
 

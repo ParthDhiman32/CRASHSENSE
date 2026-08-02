@@ -47,7 +47,7 @@ The main sensors used in this project are
 <img width="1580" height="882" alt="Crashsense PCB Render-2" src="https://github.com/user-attachments/assets/bf2b3f8c-44f6-457f-9f1e-0234a42bb2e4" />
 <img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
 
-# 3D DESIGN
+
 
 
 
