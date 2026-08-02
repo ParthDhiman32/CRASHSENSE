@@ -354,4 +354,20 @@ and now the entire CAD and PCB part of this project stands complete i will now p
 
 **Total time spent: ~1.8h** (including lapse and journalling)
 
+# 2nd and 3rd August Starting and finishing up code!
+
+first of all i replaced the traditional loop() approach because reading sensors and wiring data to the SD card could easily cause delays and miss data 
+
+I designed a dual core memory firmware architecture using FreeRTOS 
+
+1. Core 0 Reads data from the ADXL377, BMI270, and Neo-M8N every 5 ms (200Hz) and stores it in a ring buffer containing 2 seconds of data 
+
+2. Core1 Waits in the background untill a crash is detected and then saves the buffered data along with the 5 seconds of post Crash data to the SD card.
+
+Developed crash detection logic that continuoosuly checks the acceleration and if the acceleration stays above a threeshold for a short period of time the system triggeres data logging 
+
+the firmware now does not interfere with the SD card ogging and reading the Sensor data 
+
+**Total time spent: ~2h** (including lapse and journalling)
+
 
