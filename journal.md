@@ -329,9 +329,7 @@ today i made the following changes
 <img width="941" height="573" alt="Screenshot 2026-07-30 221610" src="https://github.com/user-attachments/assets/8f6eb6da-1af7-4fa9-a4d0-5b90eeafa1df" />
 <img width="788" height="380" alt="image" src="https://github.com/user-attachments/assets/675d1f4a-1189-4228-b77b-3f96493dc5ec" />
 <img width="1536" height="680" alt="image" src="https://github.com/user-attachments/assets/a4c46744-37c7-4a83-a559-888cda6f44a5" />
-
-
-
+<img width="1242" height="708" alt="image" src="https://github.com/user-attachments/assets/64c9bfcd-093a-4814-924d-559e40279a03" />
 **Total time spent: ~5-6h** (including lapse and journalling)
 
 
