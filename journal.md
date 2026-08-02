@@ -333,3 +333,27 @@ today i made the following changes
 
 
 **Total time spent: ~5-6h** (including lapse and journalling)
+
+
+# 2nd August: Outter shell designing and assembly video!
+SOOO GUYZZ in today's session i worked on the outter hexagonal design for the PCB this outter shell is intended to crush and break on impact to protect the inner 
+Main PCB housing of Crashsense 
+
+The utteroutter housing holds the inner housing and there is a 5mm wall between the inner and outter housing before the haxagonal pattern starts and 
+also a 5mm thick outter wall on the perimeter of the outter shell and the inside is filled with hexagons and when it will be hit the outter wall will distribute the impact to a 
+specific wall and the entire wal will transfer the force toi a array of hexagons instead of a specifi hexagon and will make the
+all the hexagons compress on impact and once the force ends the hexagons will restore to their initial position if the impact was not strong 
+enough to break them 
+
+after completing this design i took a few renders of the entire design 
+
+after thr renders i made a exploded view of the entire assembly and also animated each part showing how the assembly works and it should exisit this is the yt video link
+https://youtu.be/XTUrnmSj-00
+after making the animation and uploading it on youtube 
+I started to export all the CAD files in the respective folders and make each and everything organised 
+
+and now the entire CAD and PCB part of this project stands complete i will now proceed to ship this project 
+
+**Total time spent: ~1.8h** (including lapse and journalling)
+
+
