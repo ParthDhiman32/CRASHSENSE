@@ -48,6 +48,8 @@ The main sensors used in this project are
 <img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
 
 # 3D CAD DESIGN
+<img width="1242" height="708" alt="image" src="https://github.com/user-attachments/assets/e907c2b6-ad98-4b6d-91df-1d9a72866c92" />
+<img width="788" height="380" alt="image" src="https://github.com/user-attachments/assets/e48a5820-aca6-44ee-b2a7-ac30c0f59803" />
 <img width="946" height="333" alt="image" src="https://github.com/user-attachments/assets/84f1e60a-31e6-480a-a7f9-810ca42f94d8" />
 <img width="1920" height="1080" alt="Crashsense Mark-1 3D assmebly v1" src="https://github.com/user-attachments/assets/42c4794b-8fd3-49d3-9154-43754cf37596" />
 <img width="1920" height="632" alt="Crashsense Mark-1 3D assmebly V2" src="https://github.com/user-attachments/assets/54ccd6b5-1bad-4c85-89b5-11375c0de6e0" />
