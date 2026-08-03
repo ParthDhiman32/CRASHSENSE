@@ -48,25 +48,27 @@ The main sensors used in this project are
 <img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
 
 # BOM
-| Component | Designator(s) | Qty | LCSC Part # | Manufacturer Part # | Package | Supplier |
-|-----------|---------------|-----|-------------|---------------------|---------|----------|
-|Esp32 S3|U1|1|C701341|ESP32-WROOM-32E-N4|Module |LCSC| 
-|LowG IMU/GYRO|U2|1|C2828751|BMI270|LGA-14|LCSC|
-|High G accelerometer|U3|1|C138128|ADXL377BCCZ|LFCSP-16|LCSC|
-|Precise RTC|U4|1|C83023|DS3231MZ+|SOIC-8|LCSC|
-|3v3 LDO Regulartor|U5|1|C6186|AMS1117-3.3|SOT-223 |LCSC|
-|MicroSD Card slot |J1|1|C114227|MICRO SPI Push-Push|SMD|LCSC|
-|GPS Module Header|J2|1|C124375|Header 1x05 Pin|2.54mm Pitch|LCSC|
-|Power connector|J3|1|C136657|XT30PW-M|Right_Angle_SMD|LCSC |
-|TVS Diode |D1|1|C83307|SMAJ5.0A|SMA(DO-214AC)|LCSC|
-|Schhotkey diode|D2|1|C8598|SS14|SMA(DO-214AC)|LCSC| 
-|I2C Pull up resistors|R1,R2|2|C8598|4.7kΩ 1%|0805|LCSC|
-|ADXL377 Filter Resistors|R3,R4,R5|3|C25804|4.7kΩ 1%|0805|LCSC|
-|ESP32 Boot/EN Pull-ups|R6,R7|2|C17414|10kΩ 1%|0805|LCSC|
-|ADXL377 Filter Capacitors|C1,C2,C3|3|C15849|10nF 50V|0805|LCSC|
-|Bulk Input capacitors|C4,C5|2|C15850|10uF 25V|0805|LCSC|
-|Decoupling Capacitors|C6,C7,C8,C9|4|C14663|100nF 50V|0805|LCSC|
-|RTC Backup Battery Holder|BT1|1|C70377|CR1220 Holder|SMD|LCSC|
+| Component | Designator(s) | Qty | LCSC Part # | Manufacturer Part # | Package | Supplier | Total Price (USD) |
+|---|---|---|---|---|---|---|---|
+| Esp32 S3 | U1 | 1 | C701341 | ESP32-WROOM-32E-N4 | Module | LCSC | $2.50 |
+| LowG IMU/GYRO | U2 | 1 | C2828751 | BMI270 | LGA-14 | LCSC | $2.80 |
+| High G accelerometer | U3 | 1 | C138128 | ADXL377BCCZ | LFCSP-16 | LCSC | $6.50 |
+| Precise RTC | U4 | 1 | C83023 | DS3231MZ+ | SOIC-8 | LCSC | $3.50 |
+| 3v3 LDO Regulartor | U5 | 1 | C6186 | AMS1117-3.3 | SOT-223 | LCSC | $0.05 |
+| MicroSD Card slot | J1 | 1 | C114227 | MICRO SPI Push-Push | SMD | LCSC | $0.40 |
+| GPS Module Header | J2 | 1 | C124375 | Header 1x05 Pin | 2.54mm Pitch | LCSC | $0.05 |
+| Power connector | J3 | 1 | C136657 | XT30PW-M | Right_Angle_SMD | LCSC | $0.50 |
+| TVS Diode | D1 | 1 | C83307 | SMAJ5.0A | SMA(DO-214AC) | LCSC | $0.08 |
+| Schhotkey diode | D2 | 1 | C8598 | SS14 | SMA(DO-214AC) | LCSC | $0.05 |
+| I2C Pull up resistors | R1,R2 | 2 | C8598 | 4.7kΩ 1% | 0805 | LCSC | $0.02 |
+| ADXL377 Filter Resistors | R3,R4,R5 | 3 | C25804 | 4.7kΩ 1% | 0805 | LCSC | $0.03 |
+| ESP32 Boot/EN Pull-ups | R6,R7 | 2 | C17414 | 10kΩ 1% | 0805 | LCSC | $0.02 |
+| ADXL377 Filter Capacitors | C1,C2,C3 | 3 | C15849 | 10nF 50V | 0805 | LCSC | $0.06 |
+| Bulk Input capacitors | C4,C5 | 2 | C15850 | 10uF 25V | 0805 | LCSC | $0.10 |
+| Decoupling Capacitors | C6,C7,C8,C9 | 4 | C14663 | 100nF 50V | 0805 | LCSC | $0.08 |
+| RTC Backup Battery Holder | BT1 | 1 | C70377 | CR1220 Holder | SMD | LCSC | $0.15 |
+
+**Total Price:** $16.89 USD
 
 
 
