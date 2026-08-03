@@ -47,6 +47,8 @@ The main sensors used in this project are
 <img width="1580" height="882" alt="Crashsense PCB Render-2" src="https://github.com/user-attachments/assets/bf2b3f8c-44f6-457f-9f1e-0234a42bb2e4" />
 <img width="1580" height="882" alt="Crashsense PCB Render-3" src="https://github.com/user-attachments/assets/c52cccf8-4679-45f7-b950-db0f46cd8cf6" />
 
+# 3D CAD DESIGN
+
 # BOM
 | Component | Designator(s) | Qty | LCSC Part # | Manufacturer Part # | Package | Supplier | Total Price (USD) |
 |---|---|---|---|---|---|---|---|
@@ -67,9 +69,14 @@ The main sensors used in this project are
 | Bulk Input capacitors | C4,C5 | 2 | C15850 | 10uF 25V | 0805 | LCSC | $0.10 |
 | Decoupling Capacitors | C6,C7,C8,C9 | 4 | C14663 | 100nF 50V | 0805 | LCSC | $0.08 |
 | RTC Backup Battery Holder | BT1 | 1 | C70377 | CR1220 Holder | SMD | LCSC | $0.15 |
+| **Electronics** | Components BOM (LCSC/DigiKey) | 1 Board | $16.89 | $16.89 | MCU, IMUs, RTC, passives, headers |
+| **PCB Fabrication** | 2-Layer FR4 PCB (JLCPCB) | 1 Board (of 5) | $2.40 | $2.40 | ~$12.00 total for minimum 5-pc order + economy shipping |
+| **Enclosure** | 3D Printed PETG / ABS Filament | ~50g | $1.00 | $1.00 | Based on standard $20/kg spool (tough PETG/ABS) |
 
-**Total Price:** $16.89 USD
+### Total Cost Summary
 
+* **Single Unit Build Cost:** **~$20.29 USD**
+* **First 5-Board Prototype Run:** **~$98.45 USD** *(1x $20/kg Filament Spool + 5x Component Sets @ $16.89 + 5x PCBs @ $12.00)*
 
 
 

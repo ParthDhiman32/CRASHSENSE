@@ -375,4 +375,10 @@ the firmware now does not interfere with the SD card ogging and reading the Sens
 
 **Total time spent: ~2h** (including lapse and journalling)
 
+# 3rd August Finalizing the BOM!
+SOOO GUYS in this video i exported the ropugh BOM from kicad and then formatted a few more things and now i have a rough cost of the project which comes out to be around 16$ and this does not include the fabrication cost because that varies manufacturer by manufacturer and rough cost would be around 10$ 
+yk what let me just include it 
+ 
+anyways as this project is already shipped i do not have much to do but wrap up this project
 
+**Total time spent: ~1h** (including lapse and journalling)
